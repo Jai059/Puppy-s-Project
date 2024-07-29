@@ -1,0 +1,82 @@
+.footer-container {
+  width: 100%;
+  min-height: 300px;
+  background: url(../Images/homepage1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #444;
+  z-index: -1;
+}
+.footer-container .footer-center {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container .footer-links ul {
+  display: flex;
+  column-gap: 30px;
+}
+.footer-container .footer-links a {
+  color: #eee;
+  font-weight: bold;
+  font-size: 16px;
+}
+.footer-container .footer-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: #eee;
+}
+.footer-container .footer-links a.active {
+  text-decoration: underline;
+  text-decoration-color: #eee;
+}
+.footer-container .footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+.footer-container .footer-icon {
+  font-size: 25px;
+  color: #eee;
+  transition: all 0.25s linear;
+}
+.footer-container .footer-icons .footer-icon:hover {
+  transform: translateY(-3px);
+  color: dodgerblue;
+}
+.footer-container .copy-right p {
+  font-size: 18px;
+  color: #eee;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .footer-container .footer-links ul {
+    column-gap: 16px;
+    /* font-size: 12px; */
+  }
+  .footer-container .copy-right p {
+    font-size: 16px;
+  }
+  .footer-container .footer-icon {
+    font-size: 17px;
+  }
+}

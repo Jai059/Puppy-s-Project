@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog's Shop</title>
+    <link rel="stylesheet" href="/CSS Styles/style.css" />
+    <link rel="stylesheet" href="/CSS Styles/sidebar.css" />
+    <link rel="stylesheet" href="/CSS Styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="nav-container">
+      <div class="nav-center wrapper">
+        <div class="logo">
+          <a href="/index.html"><img src="/Images/logo.jpg" /></a>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="buy.html">Buy</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social-icons">
+          <div class="icons">
+            <div class="fa-brands fa-linkedin"></div>
+            <div class="fa-brands fa-github"></div>
+            <div class="fa-brands fa-square-instagram"></div>
+            <div class="fa-brands fa-youtube"></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Sidebar Start -->
+    <aside class="sidebar-container">
+      <div class="sidebar-center wrapper">
+        <div class="sidebar-header">
+          <div class="logo">
+            <a href="/index.html"><img src="/Images/logo.jpg" /></a>
+          </div>
+          <div class="close-hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="sidebar-links">
+          <ul>
+            <li>
+              <a href="/index.html" onclick="toggleMenu()">Home</a>
+            </li>
+            <li>
+              <a href="about.html" onclick="toggleMenu()">About</a>
+            </li>
+            <li>
+              <a href="photos.html" onclick="toggleMenu()">Photos</a>
+            </li>
+            <li>
+              <a href="buy.html" onclick="toggleMenu()">Buy</a>
+            </li>
+            <li>
+              <a href="contact.html" onclick="toggleMenu()">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <!-- Sidebar End -->
+
+    <!-- Hero Section Start -->
+    <div class="page-hero-container">
+      <div class="page-hero">
+        <div class="hero-img-component">
+          <div class="img-container">
+            <img src="/Images/homepage1.jpg" />
+          </div>
+        </div>
+        <div class="hero-box">
+          <div class="hero-content wrapper">
+            <h1 class="heading">Pets For Sale - Trustworthy Dogs Seller</h1>
+            <p class="desc">
+              We provide a safe and secure platform for pet owners to connect,
+              chat, and meet up with their furry friends. Our goal is to make
+              sure that every pet owner has the opportunity to meet their pet’s
+              needs and provide them with the best possible experience.
+            </p>
+            <div class="button-container">
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero Section End -->
+    <!-- About Page Start -->
+    <div class="about-container">
+      <div class="about-conter wrapper">
+        <div class="about-content">
+          <h1>About Us</h1>
+        </div>
+        <div class="img-content">
+          <div class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+            corporis deserunt iure fugiat. Doloribus vel dignissimos rem.
+            Accusamus quo consectetur in explicabo placeat fugiat eum, deserunt
+            fuga. Provident omnis quaerat voluptatum dolores. Consectetur
+            consequatur eos qui consequuntur? Sint porro cum dolorem non
+            repellat incidunt. Inventore quos fuga consectetur quidem qui.
+          </div>
+          <div class="img">
+            <img src="/Images/Buy/buy1.jpg" alt="" />
+            <button class="btn">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Page End -->
+
+    <!-- Photos Page  Start-->
+    <div class="photos-container">
+      <div class="photos-center wrapper">
+        <div class="photos-content">
+          <h1 class="heading">Photos with Customers</h1>
+        </div>
+        <div class="photos">
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo1.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo2.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo3.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo4.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo5.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo6.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo7.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo8.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo9.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo10.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo11.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo12.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo13.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo14.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo15.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo16.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo17.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo18.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo19.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo20.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Photos/photo21.jpg" alt="" />
+            <button class="btn">Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photos Page End -->
+
+    <!-- Buy Page Start -->
+    <div class="buy-container">
+      <div class="buy-center wrapper">
+        <div class="buy-content">
+          <h1 class="heading">All Dogs For Sale</h1>
+        </div>
+        <div class="photos">
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy1.jpg" alt="" />
+            <span>Leo</span>
+            <span>$1200</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy2.jpg" alt="" />
+            <span>Max</span>
+            <span>$1500</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy3.jpg" alt="" />
+            <span>Jack</span>
+            <span>$1100</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy4.jpg" alt="" />
+            <span>Jax</span>
+            <span>$1800</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy5.jpg" alt="" />
+            <span>Rocky</span>
+            <span>$1000</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy6.jpg" alt="" />
+            <span>Benny</span>
+            <span>$1600</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy7.jpg" alt="" />
+            <span>Simba</span>
+            <span>$1900</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy8.jpg" alt="" />
+            <span>Ziggy</span>
+            <span>$2100</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy9.jpg" alt="" />
+            <span>Tyson</span>
+            <span>$1600</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy10.jpg" alt="" />
+            <span>Finn</span>
+            <span>$1400</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy11.jpg" alt="" />
+            <span>Bently</span>
+            <span>$1300</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy12.jpg" alt="" />
+            <span>Murphy</span>
+            <span>$2100</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy13.jpg" alt="" />
+            <span>Tony</span>
+            <span>$2000</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy14.jpg" alt="" />
+            <span>Toby</span>
+            <span>$1900</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy15.jpg" alt="" />
+            <span>Tank</span>
+            <span>$1800</span>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="puppy-img">
+            <img src="/Images/Buy/buy16.jpg" alt="" />
+            <span>Buddy</span>
+            <span>$2100</span>
+            <button class="btn">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Buy Page End -->
+
+    <!-- Contact Page Start -->
+
+    <div class="contact-container">
+      <div class="contact-center wrapper">
+        <div class="contact-content">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="image-form">
+          <div class="image">
+            <img src="/Images/homepage2.jpg" alt="Contact Image" />
+          </div>
+          <div class="form-container">
+            <form action="#">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Page End -->
+
+    <!-- Footer Start -->
+    <footer class="footer-container">
+      <div class="footer-center wrapper">
+        <div class="footer-links">
+          <ul>
+            <li><a href="/index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="buy.html">Buy</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-icons">
+          <div class="fa-brands fa-linkedin footer-icon"></div>
+          <div class="fa-brands fa-github footer-icon"></div>
+          <div class="fa-brands fa-square-instagram footer-icon"></div>
+          <div class="fa-brands fa-youtube footer-icon"></div>
+        </div>
+        <div class="copy-right">
+          <p>
+            Copyright 2023-<span class="copyright-date">2024</span> Made by Jai
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
